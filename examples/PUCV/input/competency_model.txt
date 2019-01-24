@@ -1,0 +1,26 @@
+competency "C12", "C13" 
+learning_outcome "LO12_1", "LO12_2", "LO13_1" 
+assessment_tool "AT1", "AT2", "AT3"
+
+grade_range 4, 5.5
+
+decompose "C12" into
+    "LO12_1" weights 0.5
+    "LO12_2" weights 0.5
+end
+
+decompose "C13" into
+    "LO13_1" weights 1
+end
+
+decompose "LO12_1" into
+    "AT1" weights 1
+end
+
+decompose "LO12_2" into
+    "AT2" weights 1
+end
+
+decompose "LO13_1" into
+    "AT3" weights 1
+end

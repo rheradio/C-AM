@@ -1,0 +1,82 @@
+competency "C1", "C2", "C3", "C4", "C5", "C6", "C7"
+learning_outcome "LO1", "LO2", "LO3", "LO4", "LO5", "LO6", "LO7", "LO8", "LO9"
+assessment_tool "AT1", "AT2", "AT3", "AT4", "AT5", "AT6", "AT7", "AT8", "AT9", "AT10"
+
+grade_range 5, 7.5
+
+decompose "C1" into
+    "C2" weights 0.8
+    "C3" weights 0.2
+end
+
+decompose "C4" into
+    "C5" weights 0.3
+    "C6" weights 0.4
+    "C7" weights 0.3
+end
+
+decompose "C2" into
+    "LO1" weights 1
+end
+
+decompose "C3" into
+    "LO2" weights 0.6
+    "LO3" weights 0.4
+end
+
+decompose "C5" into
+    "LO3" weights 0.3
+    "LO4" weights 0.7
+end
+
+decompose "C6" into
+    "LO5" weights 0.75
+    "LO6" weights 0.25
+end
+
+decompose "C7" into
+    "LO7" weights 1
+end
+
+
+decompose "LO1" into
+    "AT1" weights 0.5
+    "AT2" weights 0.5
+end
+
+decompose "LO2" into
+    "AT2" weights 1
+end
+
+decompose "LO3" into
+    "AT2" weights 0.2
+    "AT3" weights 0.4
+    "AT4" weights 0.4
+end
+
+decompose "LO4" into
+    "LO8" weights 0.5
+    "LO9" weights 0.5
+end
+
+decompose "LO8" into
+    "AT5" weights 1
+end
+
+decompose "LO9" into
+    "AT6" weights 1
+end
+
+
+decompose "LO5" into
+    "AT7" weights 1
+end
+
+decompose "LO6" into
+    "AT8" weights 0.2
+    "AT9" weights 0.8
+end
+
+decompose "LO7" into
+    "AT10" weights 1
+end
