@@ -4,7 +4,9 @@ C-A&M: a framework to assess and monitor competency-based courses
 ==============================================================================
 ==============================================================================
 
-C-A&M is described in [Hector Vargas, Ruben Heradio, Jesus Chacon, Luis De La Torre, Gonzalo Farias, Daniel Galan, Sebastian Dormido. Automated Assessment and Monitoring Support for Competency-Based Courses. IEEE Access, 2019. Volume 7, Pages 41043-41051](https://ieeexplore.ieee.org/document/8675984) 
+C-A&M is described in [Hector Vargas, Ruben Heradio, Jesus Chacon, Luis De La Torre, Gonzalo Farias, 
+Daniel Galan, Sebastian Dormido. Automated Assessment and Monitoring Support for Competency-Based Courses. 
+IEEE Access, 2019. Volume 7, Pages 41043-41051](https://ieeexplore.ieee.org/document/8675984) 
 
 ============
 Requirements:
